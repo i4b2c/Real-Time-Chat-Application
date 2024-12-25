@@ -10,14 +10,12 @@ This is a real-time chat application built with **Flask** and **Socket.IO**. It 
 
 ## Technologies Used
 
+- **Python**: Programming language used for building the back-end of the app.
 - **Flask**: A lightweight Python web framework for building the server-side application.
 - **Socket.IO**: Enables real-time, bidirectional communication between the server and the client.
 - **HTML/CSS**: For building and styling the front-end interface.
 - **JavaScript**: For client-side logic and real-time communication handling.
 
-## Screenshots
-
-_(Add some screenshots of the application in use, showing the chat room, lobby page, etc.)_
 
 ## Contributing
 
