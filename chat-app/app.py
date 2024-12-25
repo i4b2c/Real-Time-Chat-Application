@@ -75,8 +75,8 @@ def connect(auth) -> None:
 	send({"name": name, "message": "has entered the room!"},to=room)
 	rooms[room]["members"] += 1
 
-	#Just Debug
-	print(f"{name} joined room {room}")
+	#Just for Debug
+	#print(f"{name} joined room {room}")
 
 @io.on("disconnect")
 def disconnect() -> None:
@@ -92,7 +92,7 @@ def disconnect() -> None:
 	send({"name":name, "message": "has left the room"},to=room)
 
 	#Just for Debug
-	print(f"{name} has left the room {room}")
+	#print(f"{name} has left the room {room}")
 
 @io.on("message")
 def message(data):
@@ -105,8 +105,8 @@ def message(data):
 	}
 	send(content, to=room)
 	rooms[room]["messages"].append(content)
-	#For debug
-	print(f"{session.get('name')} said: {data['data']}")
+	#Just for Debug
+	#print(f"{session.get('name')} said: {data['data']}")
 
 if __name__ == "__main__":
 	io.run(app, debug=False)
