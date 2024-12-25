@@ -28,6 +28,11 @@ Contributions are welcome! If you'd like to improve this project, feel free to f
 5. Push to the branch (`git push origin feature/your-feature`)
 6. Open a pull request
 
+## Screen Shots
+
+<img src="assets/lobby-screenshot.png" width="600" />
+<img src="assets/chat-screenshot.png" width="600" />
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
