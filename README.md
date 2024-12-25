@@ -28,13 +28,34 @@ Contributions are welcome! If you'd like to improve this project, feel free to f
 5. Push to the branch (`git push origin feature/your-feature`)
 6. Open a pull request
 
-## Screen Shots
+## ScreenShots
 
-<img src="assets/lobby-screenshot.png" width="600" />
-<img src="assets/chat-screenshot.png" width="600" />
+<img src="assets/lobby-screenshot.png" width="500" /> <img src="assets/chat-screenshot.png" width="500" />
+
+## Installation
+
+Please make sure you read the INSTALLATION.md
+
+## Usage
+
+1. Clone the repository:
+```
+git clone https://github.com/i4b2c/Real-Time-Chat-Application.git
+```
+2. Navigate to the project directory:
+```
+cd Real-Time-Chat-Application/chat-app
+```
+3. Install the dependencies (if needed):
+```
+pip install -r requirements.txt
+```
+4. Run the application:
+```
+python app.py
+```
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
