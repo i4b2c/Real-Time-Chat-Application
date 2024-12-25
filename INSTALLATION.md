@@ -6,5 +6,5 @@ Follow the steps below to set up and run the Real-Time Chat Application locally.
 
 ```bash
 git clone https://github.com/i4b2c/Real-Time-Chat-Application.git
-cd Real-Time-Chat-Application
+cd Real-Time-Chat-Application/chat-app
 pip install -r requirements.txt
